@@ -1,0 +1,55 @@
+{
+    "slider-layout#text-test": {
+      "title":"Slider home images full",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel"
+      },
+      "children": ["image#example_1", "image#example_2", "image#example_3"]
+    },
+  
+    "rich-text#1": {
+        "title":"Text one",
+      "props": {
+        "text": "Test1"
+      }
+    },
+    "rich-text#2": {
+        "title":"Text two",
+      "props": {
+        "text": "Test2"
+      }
+    },
+    "rich-text#3": {
+        "title":"Text three",
+      "props": {
+        "text": "Test3"
+      }
+    },
+    "image#example_1": {
+        "title":"Image one",
+        "props": {
+          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+          
+        }
+      },
+      "image#example_2": {
+        "title":"Image two",
+        "props": {
+          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+          
+        }
+      },
+      "image#example_3": {
+        "title":"Image three",
+        "props": {
+          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+      }
+  }  
