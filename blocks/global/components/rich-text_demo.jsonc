@@ -1,39 +1,61 @@
 {
   "flex-layout.row#text_one--home": {
-    "title": "Text no one home",
+    "title": "Text row one home",
     "children": [
       "flex-layout.col#text_one--home",
-      "flex-layout.col#text_two--home"
+      "flex-layout.col#text_two--home",
+      "flex-layout.col#text_three--home"
     ],
     "props": {}
   },
-
   "flex-layout.col#text_one--home": {
     "title": "Text col one home",
     "children": [
-      "rich-text"
+      "image#reloj_1"
     ],
     "props": {
-      "width": "20%"
+      "width": "33%"
     }
   },
-
   "flex-layout.col#text_two--home": {
     "title": "Text col two home",
     "children": [
-      "rich-text"
+      "rich-text#watch",
+      "rich-text#ultra2"
     ],
     "props": {
-      "width": "80%"
+      "width": "33%"
     }
   },
-
-  "rich-text": {
+  "flex-layout.col#text_three--home": {
+    "title": "Text col three home",
+    "children": [
+      "image#reloj_1"
+    ],
     "props": {
-      "text": "Hola mundo desde Vtex io",
+      "width": "33%"
+    }
+  },
+  "rich-text#watch": {
+    "props": {
+      "text": "WATCH",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
+    }
+  },
+  "rich-text#ultra2": {
+    "props": {
+      "text": "ULTRA 2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "image#reloj_1": {
+    "title": "Image reloj",
+    "props": {
+      "src": "assets/img/imagen_reloj.png"
     }
   }
 }
