@@ -1,6 +1,6 @@
 {
   "flex-layout.row#text_one--home": {
-    "title": "Text row one home",
+    "title": "Text row principal home",
     "children": [
       "flex-layout.col#text_one--home",
       "flex-layout.col#text_two--home",
@@ -20,8 +20,7 @@
   "flex-layout.col#text_two--home": {
     "title": "Text col two home",
     "children": [
-      "rich-text#watch",
-      "rich-text#ultra2"
+      "flex-layout.col#watch--home"
     ],
     "props": {
       "width": "33%"
@@ -36,12 +35,25 @@
       "width": "33%"
     }
   },
+  "flex-layout.col#watch--home": {
+    "title": "Text col one home",
+    "children": [
+      "rich-text#watch",
+      "rich-text#ultra2"
+    ],
+    "props": {
+     
+    }
+  },
   "rich-text#watch": {
     "props": {
       "text": "WATCH",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-1",
+      "blockClass": [
+        "row-one-watch"
+      ]
     }
   },
   "rich-text#ultra2": {
@@ -49,7 +61,11 @@
       "text": "ULTRA 2",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-1",
+      "blockClass": [
+        "row-two-ultra"
+      ]
+      
     }
   },
   "image#reloj_1": {
