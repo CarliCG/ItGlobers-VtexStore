@@ -40,19 +40,19 @@
     "image#example_1": {
       "title": "Image one",
       "props": {
-        "src": "/assets/img/imagen_reloj.png"
+        "src": "assets/img/imagen_reloj.png"
       }
     },
     "image#example_2": {
       "title": "Image two",
       "props": {
-        "src": "/assets/img/imagen_2.jpg"
+       "src": "assets/img/imagen_reloj.png"
       }
     },
     "image#example_3": {
       "title": "Image three",
       "props": {
-        "src": "/assets/img/imagen_3.jpeg"
+        "src":"assets/img/imagen_reloj.png"
       }
     },
     "flex-layout.row#test_one--slider-home": {

@@ -20,7 +20,7 @@
   "flex-layout.col#text_two--home": {
     "title": "Text col two home",
     "children": [
-      "flex-layout.col#watch--home"
+      
     ],
     "props": {
       "width": "33%"
@@ -35,43 +35,18 @@
       "width": "33%"
     }
   },
-  "flex-layout.col#watch--home": {
-    "title": "Text col one home",
-    "children": [
-      "rich-text#watch",
-      "rich-text#ultra2"
-    ],
-    "props": {
-     
-    }
-  },
-  "rich-text#watch": {
-    "props": {
-      "text": "WATCH",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1",
-      "blockClass": [
-        "row-one-watch"
-      ]
-    }
-  },
-  "rich-text#ultra2": {
-    "props": {
-      "text": "ULTRA 2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1",
-      "blockClass": [
-        "row-two-ultra"
-      ]
-      
-    }
-  },
+   
   "image#reloj_1": {
     "title": "Image reloj",
     "props": {
-      "src": "assets/img/imagen_reloj.png"
+      "src":"assets/img/imagen_reloj.png"
+
     }
-  }
-}
+  },
+"rich-text#watch": {
+      "title": "Text one",
+      "props": {
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).1"
+      }
+    }
+ }
