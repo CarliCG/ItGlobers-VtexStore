@@ -1,9 +1,13 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -14,66 +18,124 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": [
+      "flex-layout.row#desktop"
+    ]
   },
   "flex-layout.row#desktop": {
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
+      "horizontalAlign": "left",
+      "verticalAlign": "center"
+      
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#buttons--home"  // Agrega la fila con columnas aquí
     ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": [
+      "logo"
+    ]
   },
   "logo": {
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "assets/img/logo1.png",
-      "width": "80"
+      "width": "60"
     }
   },
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
+  "flex-layout.col#buttons--home": {
+    "title": "Nav bar 1",
     "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "flex-layout.row#buttons"
+    ],
+    "props": {}
+  },
+  "flex-layout.row#buttons": {
+    "children": [
+      "flex-layout.col#tendencias",
+      "flex-layout.col#coleccion",
+      "flex-layout.col#oferta",
+      "flex-layout.col#cyber",
+      "flex-layout.col#never"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "right",
+      "verticalAlign": "center",
       "fullWidth": true
     }
   },
-  "drawer": {
-    "children": []
+  "flex-layout.col#tendencias": {
+    "title": "Tendencias de ITGlobers",
+    "children": [
+      "rich-text#tendencia"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#coleccion": {
+    "title": "Coleccion del mes",
+    "children": [
+      "rich-text#coleccion"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#oferta": {
+    "title": "Ofertas enero",
+    "children": [
+      "rich-text#ofertas"
+    ],
+    "props": {}
+  },
+
+"flex-layout.col#cyber": {
+    "title": "cyber monday",
+    "children": [
+      "rich-text#cyber"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#never": {
+    "title": "Never say never",
+    "children": [
+      "rich-text#Never"
+    ],
+    "props": {}
+  },
+
+
+  "rich-text#tendencia": {
+    "title": "Text tendencias",
+    "props": {
+      "text": "Tendencias de ITGlobers"
+    }
+  },
+  "rich-text#coleccion": {
+    "title": "Text coleccion",
+    "props": {
+      "text": "Coleccion del mes"
+    }
+  },
+  "rich-text#ofertas": {
+    "title": "Text ofertas",
+    "props": {
+      "text": "Ofertas enero"
+    }
+  },
+  "rich-text#cyber": {
+    "title": "Text coleccion",
+    "props": {
+      "text": "Cyber Monday"
+    }
+  },
+  "rich-text#Never": {
+    "title": "Never say never",
+    "props": {
+      "text": "Never say never"
+    }
   }
 }
