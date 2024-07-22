@@ -34,7 +34,7 @@
   "flex-layout.col#text_three--home": {
     "title": "Text col three home",
     "children": [
-      "image#reloj_1"
+      "image#reloj_2"
     ],
     "props": {
       "width": "33%"
@@ -47,10 +47,21 @@
       
     }
   },
-  "rich-text#watch": {
-    "title": "Text watch",
+  "image#reloj_2": {
+    "title": "Image reloj",
     "props": {
-      "text": "WATCH"
+      "src": "assets/img/imagen_reloj2.png"
+      
+    }
+  },
+  "rich-text#watch": {
+    "title": "Text iwatch",
+    "props": {
+      "text": "iWATCH",
+      
+      "blockClass":[
+        "iWatch"
+      ]
     }
   },
   "rich-text#ultra": {

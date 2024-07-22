@@ -4,8 +4,8 @@
             "id": "infoCardPixel",
             "textPosition": "left",
             "headline": "Heading",
-            "subhead": "Hola mundo",
-            "callToActionText": "Ver precio"
+            "subhead": "Hola mundo"
+            
             
         }
     }
