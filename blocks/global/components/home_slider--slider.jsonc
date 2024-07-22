@@ -40,7 +40,7 @@
     "image#example_1": {
       "title": "Image one",
       "props": {
-        "src": "assets/img/imagen_reloj.png"
+        "src": "assets/img/image_phone.png"
       }
     },
     "image#example_2": {

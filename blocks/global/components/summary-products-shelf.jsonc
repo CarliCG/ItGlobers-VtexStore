@@ -1,0 +1,35 @@
+{
+    "shelf#home": {
+        "title":"card info",
+        "blocks": [
+            "product-summary.shelf#InfoCardsSlider"
+        ]
+      
+    },
+    "product-summary.shelf#InfoCardsSlider": {
+        "title":"Cards",
+        "children": [
+            "image#phone",
+            "rich-text#heading",
+            "rich-text#paragraph1"
+        ]
+    },
+    "image#phone": {
+        "title": "Image phone",
+        "props": {
+            "src": "assets/img/image_phone.png"
+        }
+    },
+    "rich-text#heading": {
+        "title": "heading",
+        "props": {
+            "text": "Heading"
+        }
+    },
+    "rich-text#paragraph1": {
+        "title": " rich-text#paragraph 1",
+        "props": {
+            "text": "Builder platform is made by, buildership platform is made by..."
+        }
+    }
+}

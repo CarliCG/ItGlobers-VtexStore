@@ -4,11 +4,11 @@
       "children": ["slider-layout#demo-images"],
       "props": {
         "preload": true,
-        "height": 650,
+        "height": 450,
         "images": [
           {
             "loading": "eager",
-            "image": "assets/img/imagen_reloj.png",
+            "image": "assets/img/image_phone.png",
             "description": "something something"
           },
           {
