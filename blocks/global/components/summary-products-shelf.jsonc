@@ -1,6 +1,7 @@
 {
     "shelf#home": {
         "title":"card info",
+        
         "blocks": [
             "product-summary.shelf#InfoCardsSlider"
         ]
@@ -8,6 +9,7 @@
     },
     "product-summary.shelf#InfoCardsSlider": {
         "title":"Cards",
+        
         "children": [
             "image#phone",
             "rich-text#heading",

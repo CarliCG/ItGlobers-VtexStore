@@ -3,10 +3,7 @@
     "blocks": [
       "flex-layout.row#text_one--home",
       "shelf#home",
-      "list-context.image-list#demo",
-      "slider-layout#text-test"
-      
-      
+      "info-card#pixel"
     ]
   }
 }

@@ -1,0 +1,12 @@
+{
+    "info-card#pixel": {
+        "props": {
+            "id": "infoCardPixel",
+            "textPosition": "left",
+            "headline": "Heading",
+            "subhead": "Hola mundo",
+            "callToActionText": "Ver precio"
+            
+        }
+    }
+}

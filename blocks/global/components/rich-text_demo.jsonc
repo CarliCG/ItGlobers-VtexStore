@@ -25,7 +25,11 @@
       "rich-text#amazing"
       
     ],
-    "props": {}
+    "props": {
+      "blockClass":[
+        "ejemploStyle"
+      ]
+    }
   },
   "flex-layout.col#text_three--home": {
     "title": "Text col three home",
@@ -40,6 +44,7 @@
     "title": "Image reloj",
     "props": {
       "src": "assets/img/imagen_reloj.png"
+      
     }
   },
   "rich-text#watch": {
