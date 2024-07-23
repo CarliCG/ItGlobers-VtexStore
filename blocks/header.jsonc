@@ -30,7 +30,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#buttons--home"  // Agrega la fila con columnas aquí
+      "flex-layout.col#buttons--home"  
     ]
   },
   "flex-layout.col#logo-desktop": {

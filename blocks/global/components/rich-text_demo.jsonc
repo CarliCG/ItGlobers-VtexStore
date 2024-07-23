@@ -20,13 +20,13 @@
   "flex-layout.col#text_two--home": {
     "title": "Text col two home",
     "children": [
+      "image#iWatch",
       "rich-text#watch",
       "rich-text#ultra",
       "rich-text#amazing"
-      
     ],
     "props": {
-      "blockClass":[
+      "blockClass": [
         "ejemploStyle"
       ]
     }
@@ -44,37 +44,53 @@
     "title": "Image reloj",
     "props": {
       "src": "assets/img/imagen_reloj.png"
-      
     }
   },
   "image#reloj_2": {
     "title": "Image reloj",
     "props": {
       "src": "assets/img/imagen_reloj2.png"
-      
     }
   },
   "rich-text#watch": {
     "title": "Text iwatch",
     "props": {
       "text": "iWATCH",
-      
-      "blockClass":[
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": [
         "iWatch"
       ]
     }
   },
+
   "rich-text#ultra": {
     "title": "Text ultra",
     "props": {
-      "text": "ULTRA 2"
+      "text": "ULTRA 2",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": [
+        "ultra2"
+      ]
     }
   },
+
   "rich-text#amazing": {
     "title": "Text amazing",
     "props": {
-      "text": "An amazing product."
+      "text": "An amazing product.",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": [
+        "amazing"
+      ]
+    }
+  },
+  "image#iWatch": {
+    "title": "Image reloj",
+    "props": {
+      "src": "assets/img/Texts.png"
     }
   }
-  
 }
