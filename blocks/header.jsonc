@@ -1,12 +1,14 @@
 {
   "header": {
     "blocks": [
-      "header-layout.desktop"
+      "header-layout.desktop",
+      "header-layout.mobile"
     ]
   },
   "header.full": {
     "blocks": [
-      "header-layout.desktop"
+      "header-layout.desktop",
+      "header-layout.mobile"
     ]
   },
   "header-layout.desktop": {
@@ -24,13 +26,25 @@
   },
   "flex-layout.row#desktop": {
     "props": {
-      "horizontalAlign": "left",
-      "verticalAlign": "center"
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#buttons--home"
+      "search-bar",
+      "flex-layout.col#spacer",
+      "flex-layout.row#buttons",
+      "flex-layout.col#hpacart-desktop",
+      "flex-layout.col#loginButton-desktop"
     ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -45,95 +59,35 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/img/logo1.png",
-      "width": "60"
+      "width": "80"
     }
   },
-  "flex-layout.col#buttons--home": {
-    "title": "Nav bar 1",
+
+  "flex-layout.col#hpacart-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
     "children": [
-      "flex-layout.row#buttons"
-    ],
-    "props": {}
+      "image#cart"
+    ]
   },
-  "flex-layout.row#buttons": {
+  "image#cart": {
+    "title":"hpa cart",
+    "props": {
+      "width": 100,
+      "src": "assets/img/hpa-cart.png",
+      "blockClass": [
+        "hpa-cart"
+      ]
+    }
+  },
+  "flex-layout.col#loginButton-desktop": {
+    "title": "Login Button Header",
+    "props": {      
+    },
     "children": [
-      "flex-layout.col#tendencias",
-      "flex-layout.col#coleccion",
-      "flex-layout.col#oferta",
-      "flex-layout.col#cyber",
-      "flex-layout.col#never",
       "image#Login"
-    ],
-    "props": {
-      "horizontalAlign": "right",
-      "verticalAlign": "center",
-      "fullWidth": true
-    }
-  },
-  "flex-layout.col#tendencias": {
-    "title": "Tendencias de ITGlobers",
-    "children": [
-      "rich-text#tendencia"
-    ],
-    "props": {}
-  },
-  "flex-layout.col#coleccion": {
-    "title": "Coleccion del mes",
-    "children": [
-      "rich-text#coleccion"
-    ],
-    "props": {}
-  },
-  "flex-layout.col#oferta": {
-    "title": "Ofertas enero",
-    "children": [
-      "rich-text#ofertas"
-    ],
-    "props": {}
-  },
-  "flex-layout.col#cyber": {
-    "title": "cyber monday",
-    "children": [
-      "rich-text#cyber"
-    ],
-    "props": {}
-  },
-  "flex-layout.col#never": {
-    "title": "Never say never",
-    "children": [
-      "rich-text#Never"
-    ],
-    "props": {}
-  },
-  "rich-text#tendencia": {
-    "title": "Text tendencias",
-    "props": {
-      "text": "Tendencias de ITGlobers"
-    }
-  },
-  "rich-text#coleccion": {
-    "title": "Text coleccion",
-    "props": {
-      "text": "Coleccion del mes"
-    }
-  },
-  "rich-text#ofertas": {
-    "title": "Text ofertas",
-    "props": {
-      "text": "Ofertas enero"
-    }
-  },
-  "rich-text#cyber": {
-    "title": "Text coleccion",
-    "props": {
-      "text": "Cyber Monday"
-    }
-  },
-  "rich-text#Never": {
-    "title": "Never say never",
-    "props": {
-      "text": "Never say never"
-    }
+    ]
   },
   "image#Login": {
     "title": "Image Login",
@@ -143,5 +97,36 @@
         "loginButton"
       ]
     }
+  },
+
+
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "logo",
+      "flex-layout.col#spacer",
+      "image#cart",
+      "login"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
   }
+  
+  
 }
