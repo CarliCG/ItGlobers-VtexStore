@@ -4,7 +4,9 @@
     "children": [
       "flex-layout.col#-desktop"
     ],
-    "props": {}
+    "props": {
+      "blockClass": "desktopContainer"
+    }
   },
 "flex-layout.col#-desktop": {
     "props": {
@@ -21,6 +23,7 @@
     "props": {
       "src": "assets/img/Hero_Desktop.png",
       "blockClass": "desktopImage"
+      
     }
   }
 
