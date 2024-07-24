@@ -2,13 +2,30 @@
   "flex-layout.row#text_one--home": {
     "title": "Text row principal home",
     "children": [
-      "flex-layout.col#text_one--home",
-      "flex-layout.col#text_two--home",
-      "flex-layout.col#text_three--home"
+      "flex-layout.col#-desktop"
     ],
     "props": {}
   },
-  "flex-layout.col#text_one--home": {
+"flex-layout.col#-desktop": {
+    "props": {
+      "blockClass": "desktopContainer",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#desktop1"
+    ]
+  },
+  "image#desktop1": {
+    "title": "Image Principal Desktop",
+    "props": {
+      "src": "assets/img/Hero_Desktop.png",
+      "blockClass": "desktopImage"
+    }
+  }
+
+  /*
+"flex-layout.col#text_one--home": {
     "title": "Text col one home",
     "children": [
       "image#reloj_1"
@@ -92,5 +109,5 @@
     "props": {
       "src": "assets/img/Texts.png"
     }
-  }
+  }*/
 }
