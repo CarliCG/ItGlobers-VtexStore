@@ -3,8 +3,9 @@
     "blocks": [
       
       "flex-layout.row#text_one--home",
-      "shelf#home",
+      "shelf#home1",
       "shelf#homeProducts"
+      
            
     ]
   }
