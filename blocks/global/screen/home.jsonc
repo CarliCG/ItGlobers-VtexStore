@@ -4,7 +4,9 @@
       
       "flex-layout.row#text_one--home",
       "shelf#home",
-      "info-card#pixel"
+      "shelf#homeProducts"
+           
     ]
   }
+  
 }

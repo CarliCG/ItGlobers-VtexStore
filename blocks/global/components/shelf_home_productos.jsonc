@@ -1,0 +1,24 @@
+{
+    "shelf#homeProducts": {
+        "title": "Product grid desktop",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "paginationDotsVisibility": "always",
+            "productList":{
+                "arrows": "true",
+                "titleText":"An amazing product."
+                
+            }
+        }
+    },
+    "product-summary-image": {
+      "props": {
+        "showBadge": true,
+        "height": 220,
+        "imageUrl": "assets/img/image_shelf.png",
+        "blockClass": ["Monitor"]      
+      }
+    }
+}

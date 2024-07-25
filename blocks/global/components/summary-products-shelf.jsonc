@@ -2,10 +2,10 @@
     "shelf#home": {
         "title": "card info",
         "props": {
-      "blockClass": "cardInfo",
-      "horizontalAlign": "center",
-      "verticalAlign": "middle"
-    },
+            "blockClass": "cardInfo",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        },
         "blocks": [
             "product-summary.shelf#InfoCardsSlider"
         ]
@@ -19,7 +19,8 @@
     "image#infoCard": {
         "title": "Information Card",
         "props": {
-            "src": "assets/img/Info_Cards.png"
+            "src": "assets/img/Info_Cards.png",
+            "blockClass": "desktopCardImage"
         }
     }
     /*"image#phone": {
