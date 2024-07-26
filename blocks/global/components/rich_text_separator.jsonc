@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#separator": {
+        "title": "Text separating banners",
+        "children": [
+            "flex-layout.col#amazingProducts"
+        ],
+        "props": {
+            "blockClass": "desktopContainer"
+        }
+    },
+    "flex-layout.col#amazingProducts": {
+        "title": "Amazing Products Text",
+        "props": {
+            "blockClass": "desktopContainer",
+            "horizontalAlign": "left",
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "rich-text#amazingProducts"
+        ]
+    },
+    "rich-text#amazingProducts": {
+        "title": "Text Amazing Products",
+        "props": {
+            "text": "Amazing Products",
+            "textPosition": "left",
+            "font": "t-heading-2",
+            "blockClass": [
+                "amazingP"
+            ]
+            
+        }
+    }
+}

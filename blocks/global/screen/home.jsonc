@@ -1,13 +1,12 @@
 {
   "store.home": {
     "blocks": [
-      
       "flex-layout.row#text_one--home",
-      "shelf#home1",
-      "shelf#homeProducts"
+      "flex-layout.row#separator",
+      "flex-layout.row#slider1--home",
+      "flex-layout.row#separator"
       
-           
+      
     ]
   }
-  
 }

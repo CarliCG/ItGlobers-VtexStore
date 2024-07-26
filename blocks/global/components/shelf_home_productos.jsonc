@@ -9,15 +9,12 @@
             "paginationDotsVisibility": "always",
             "blockClass": "products price",
             "horizontalAlign": "center",
-            "verticalAlign": "middle",
-            "productList": {
-                "arrows": "true",
-                "titleText": "An amazing product."
-            }
+            "verticalAlign": "middle"           
         }
     },
-"product-summary.shelf#InfoShelfSlider": {
-        "title": "Cards",
+    "product-summary.shelf#InfoShelfSlider": {
+        "title": "Card Products",
+        
         "children": [
             "image#infoShelfProduct"
         ]
@@ -29,5 +26,4 @@
             "blockClass": "desktopShelfImage"
         }
     }
-
 }

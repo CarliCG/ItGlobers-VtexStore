@@ -1,0 +1,162 @@
+{
+  "flex-layout.row#slider1--home": {
+    "title": "Cards carousel row",
+    "children": [
+      "slider-layout#slider1-images"
+    ],
+    "props": {
+      "blockClass": [
+        "image_slider1--desktop"
+      ]
+    }
+  },
+  "slider-layout#slider1-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4.5,
+        "tablet": 4,
+        "phone": 1.5
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": [
+        "imagePhone__slider"
+      ]
+    },
+    "children": [
+      "flex-layout.col#cardContainer1",
+      "flex-layout.col#cardContainer1",
+      "flex-layout.col#cardContainer1",
+      "flex-layout.col#cardContainer1",
+      "flex-layout.col#cardContainer1",
+      "flex-layout.col#cardContainer1",
+      "flex-layout.col#cardContainer1",
+      "flex-layout.col#cardContainer1",
+      "flex-layout.col#cardContainer1"
+    ]
+  },
+  "flex-layout.col#cardContainer1": {
+    "title": "Card Container 1",
+    "children": [
+      "flex-layout.row#imagePhone1",
+      "flex-layout.row#TextInfoSlider1"
+    ],
+    "props": {
+      "blockClass": [
+        "card-container"
+      ],
+      "style": {
+        "width": "100%",
+        "padding": "10px"
+      }
+    }
+  },
+  "flex-layout.row#imagePhone1": {
+    "title": "Phone image for card slider 1",
+    "props": {
+      "blockClass": [
+        "row_image--phone"
+      ]
+    },
+    "children": [
+      "image#phoneSlider1"
+    ]
+  },
+  "image#phoneSlider1": {
+    "title": "Slider 1 phone image card",
+    "props": {
+      "src": "assets/img/image_phone.png",
+      "blockClass": [
+        "image--phone"
+      ]
+    }
+  },
+  "flex-layout.row#TextInfoSlider1": {
+    "title": "Text and logo",
+    "props": {
+      "blockClass": [
+        "text--card"
+      ]
+    },
+    "children": [
+      "flex-layout.col#paragraph1",
+      "flex-layout.col#logo2"
+    ]
+  },
+  "flex-layout.col#paragraph1": {
+    "title": "Title and paragraph",
+    "props": {
+      "blockClass": [
+        "card_title_paragraph"
+      ],
+      "width": "75%"
+    },
+    "children": [
+      "rich-text#title1",
+      "rich-text#paragraph1",
+      "flex-layout.row#buttonPrice1"
+    ]
+  },
+  "rich-text#title1": {
+    "title": "Title",
+    "props": {
+      "font": "t-heading-2",
+      "blockClass": [
+        "text_title"
+      ],
+      "text": "Heading"
+    }
+  },
+  "rich-text#paragraph1": {
+    "title": "Paragraph",
+    "props": {
+      "font": "t-heading-3",
+      "blockClass": [
+        "text-paragraph"
+      ],
+      "text": "Builder platform is made by, buildership platform is made by"
+    }
+  },
+  "flex-layout.col#logo2": {
+    "title": "Logo2",
+    "children": [
+      "image#logo2"
+    ],
+    "props": {
+      "blockClass": [
+        "logo2"
+      ]
+    }
+  },
+  "image#logo2": {
+    "title": "Logo2 card",
+    "props": {
+      "src": "assets/img/Logo2.png",
+      "blockClass": [
+        "logo2_card"
+      ]
+    }
+  },
+  "flex-layout.row#buttonPrice1": {
+    "title": "Button Price",
+    "props": {
+      "font": "t-heading-5",
+      "blockClass": [
+        "button-card-price"
+      ]
+    },
+    "children": [
+      "rich-text#button--card1"
+    ]
+  },
+  "rich-text#button--card1": {
+    "title": "Text button",
+    "props": {
+      "blockClass": [
+        "price--button"
+      ],
+      "text": "Ver precio"
+    }
+  }
+}
