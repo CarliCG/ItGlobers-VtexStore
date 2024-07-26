@@ -13,9 +13,9 @@
   "slider-layout#slider1-images": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4.5,
-        "tablet": 4,
-        "phone": 1.5
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "always",
@@ -30,10 +30,8 @@
       "flex-layout.col#cardContainer1",
       "flex-layout.col#cardContainer1",
       "flex-layout.col#cardContainer1",
-      "flex-layout.col#cardContainer1",
-      "flex-layout.col#cardContainer1",
-      "flex-layout.col#cardContainer1",
       "flex-layout.col#cardContainer1"
+      
     ]
   },
   "flex-layout.col#cardContainer1": {
@@ -45,11 +43,8 @@
     "props": {
       "blockClass": [
         "card-container"
-      ],
-      "style": {
-        "width": "100%",
-        "padding": "10px"
-      }
+      ]
+      
     }
   },
   "flex-layout.row#imagePhone1": {
