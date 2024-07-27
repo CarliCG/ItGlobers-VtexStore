@@ -5,6 +5,7 @@
       "slider-layout#slider1-images"
     ],
     "props": {
+      
       "blockClass": [
         "image_slider1--desktop"
       ]
@@ -18,7 +19,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "always",
+      
       "showPaginationDots": "always",
       "blockClass": [
         "imagePhone__slider"

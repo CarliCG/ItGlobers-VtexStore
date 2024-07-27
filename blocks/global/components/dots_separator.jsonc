@@ -1,0 +1,31 @@
+{
+    "flex-layout.row#dotSeparator": {
+        "title": "Text separating banners",
+        "children": [
+            "flex-layout.col#dot"
+        ],
+        "props": {
+            "blockClass": "dot-Separator"
+        }
+    },
+    "flex-layout.col#dot": {
+        "title": "Dot for separate sliders",
+        "props": {
+            "blockClass": "dotSeparator",
+            "horizontalAlign": "center"
+            
+        },
+        "children": [
+            "image#dotSeparator"
+        ]
+    },
+    "image#dotSeparator": {
+    "title": "Image of the dot separator",
+    "props": {
+      "src": "assets/img/Slider_indicator.png",
+      "blockClass": [
+        "image--dot"
+      ]
+    }
+  }
+}
