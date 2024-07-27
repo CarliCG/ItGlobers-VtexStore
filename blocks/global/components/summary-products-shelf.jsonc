@@ -35,7 +35,7 @@
   "flex-layout.col#sliderProducts--desktop": {
     "title": "infocard desktop products",
     "children": [
-      "flex-layout.row#discount--like",      
+      "flex-layout.row#discount--like",
       "flex-layout.row#desktop--slide",
       "flex-layout.row#description",
       "flex-layout.row#price1",
@@ -68,7 +68,6 @@
       ]
     }
   },
-  
   "flex-layout.row#desktop--slide": {
     "title": "Space image desktop",
     "children": [
@@ -92,15 +91,16 @@
       ]
     },
     "children": [
-      "rich-text#desktop-description"
+      "rich-text#slider-description"
     ]
   },
-  "rich-text#desktop-description": {
-    "title": "Desktop description",
+  "rich-text#slider-description": {
+    "title": "Slider description Text",
     "props": {
       "text": "Descripción del producto en hasta tres líneas de texto explicativo",
+      "font": "t-heading-5",
       "blockClass": [
-        "desktop-description"
+        "Slider-description-text"
       ]
     }
   },
@@ -119,8 +119,9 @@
     "title": "Price no discount",
     "props": {
       "text": "$ 836.900",
+      "font": "t-heading-5",
       "blockClass": [
-        "text no discount"
+        "text_no_discount"
       ]
     }
   },
@@ -138,15 +139,17 @@
   "rich-text#price-Discount": {
     "title": "Price with discount",
     "props": {
-      "text": "$ $ 636.900",
+      "text": " $ 636.900",
+      "font": "t-heading-1",
       "blockClass": [
-        "text no discount"
+        "text_discount"
       ]
     }
   },
   "flex-layout.row#imageFreeShip": {
     "title": "free shipping",
     "props": {
+      "horizontalAlign": "left",
       "blockClass": [
         "freeShipping"
       ]
@@ -159,6 +162,8 @@
     "title": "Image monitor",
     "props": {
       "src": "assets/img/Free-Ship.png",
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
       "blockClass": [
         "free-ship-image"
       ]

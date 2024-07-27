@@ -5,15 +5,15 @@
             "flex-layout.col#amazingProducts"
         ],
         "props": {
-            "blockClass": "desktopContainer"
+            "blockClass": "desktopContainerTotal"
         }
     },
     "flex-layout.col#amazingProducts": {
         "title": "Amazing Products Text",
         "props": {
             "blockClass": "desktopContainer",
-            "horizontalAlign": "left",
-            "verticalAlign": "middle"
+            "horizontalAlign": "left"
+            
         },
         "children": [
             "rich-text#amazingProducts"
@@ -25,6 +25,7 @@
             "text": "Amazing Products",
             "textPosition": "left",
             "font": "t-heading-2",
+            "verticalAlign":"CENTER",
             "blockClass": [
                 "amazingP"
             ]
