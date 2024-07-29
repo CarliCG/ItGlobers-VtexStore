@@ -62,7 +62,6 @@
       "width": "80"
     }
   },
-
   "flex-layout.col#hpacart-desktop": {
     "props": {
       "verticalAlign": "middle"
@@ -72,7 +71,7 @@
     ]
   },
   "image#cart": {
-    "title":"hpa cart",
+    "title": "hpa cart",
     "props": {
       "width": 100,
       "src": "assets/img/hpa-cart.png",
@@ -83,8 +82,7 @@
   },
   "flex-layout.col#loginButton-desktop": {
     "title": "Login Button Header",
-    "props": {      
-    },
+    "props": {},
     "children": [
       "image#Login"
     ]
@@ -98,8 +96,6 @@
       ]
     }
   },
-
-
   "header-layout.mobile": {
     "children": [
       "sticky-layout#mobile"
@@ -127,6 +123,4 @@
   "drawer": {
     "children": []
   }
-  
-  
 }

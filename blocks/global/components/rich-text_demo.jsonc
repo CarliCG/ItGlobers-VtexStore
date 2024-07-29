@@ -21,6 +21,7 @@
   "image#desktop1": {
     "title": "Image Principal Desktop",
     "props": {
+      
       "src": "assets/img/Hero_Desktop.png",
       "isFullModeStyle":true,
       "blockClass": "desktopImage"
