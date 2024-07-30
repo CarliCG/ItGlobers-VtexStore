@@ -18,22 +18,32 @@
                 "phone": 1
             },
             "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always",
+            "height": 340,
             "blockClass": [
                 "CardsInfo"
             ]
         },
         "children": [
-            "flex-layout.col#cardContainerA",
-            "flex-layout.col#cardContainerB",
-            "flex-layout.col#cardContainerC"
+            "flex-layout.col#cardContainerA"
+            
+            
+            
         ]
     },
     "flex-layout.col#cardContainerA": {
-        "title": "Card Container 1",
-        "children": [
-            "info-card#card1"
+    "title": "Card Container 1",
+    "children": [
+        "info-card#card1"
+        
+    ],
+    "props": {
+        "blockClass": [
+            "cardContainerA"
         ]
-    },
+    }
+},
     "flex-layout.col#cardContainerB": {
         "title": "Card Container 2",
         "children": [
@@ -46,8 +56,43 @@
             "info-card#card3"
         ]
     },
- 
- "info-card#card1": {
+    "flex-layout.col#cardContainerD": {
+        "title": "Card Container 4",
+        "children": [
+            "info-card#card4"
+        ]
+    },
+    "flex-layout.col#cardContainerE": {
+        "title": "Card Container 5",
+        "children": [
+            "info-card#card5"
+        ]
+    },
+    "image#logoYellow": {
+    "title": "Slider logo card",
+    "props": {
+      "src": "assets/img/Logo2.png",
+      "blockClass": [
+        "image--logo2"
+      ]
+    }
+  },
+    "info-card#card1": {
+        "props": {
+            "id": "info-card-card1",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "assets/img/image_phone.png",
+            "headline": "Heading",
+            "bodyText": "Builder platform is made by, buildership platform is made by",            
+            "callToActionText": "Ver precio",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
+        }
+    },
+    
+    "info-card#card2": {
         "props": {
             "id": "info-card-card1",
             "isFullModeStyle": false,
@@ -58,38 +103,49 @@
             "callToActionText": "Ver precio",
             "callToActionUrl": "/sale/d",
             "blockClass": "info-card-example",
-            "textAlignment": "center"
+            "textAlignment": "left"
         }
     },
-
-    "info-card#card2": {
+    "info-card#card3": {
         "props": {
-            "id": "info-card-card2",
+            "id": "info-card-card1",
             "isFullModeStyle": false,
-            
+            "textPosition": "left",
             "imageUrl": "assets/img/image_phone.png",
             "headline": "Heading",
             "bodyText": "Builder platform is made by, buildership platform is made by",
             "callToActionText": "Ver precio",
-            "callToActionUrl": "/offer/a",
+            "callToActionUrl": "/sale/d",
             "blockClass": "info-card-example",
-            "textAlignment": "center"
+            "textAlignment": "left"
         }
     },
-
-    "info-card#card3": {
+    "info-card#card4": {
         "props": {
-            "id": "info-card-card3",
+            "id": "info-card-card1",
             "isFullModeStyle": false,
-            "textPosition": "right",
+            "textPosition": "left",
             "imageUrl": "assets/img/image_phone.png",
             "headline": "Heading",
-            "bodyText": "Builder platform is made by, buildership platform is made by",            
+            "bodyText": "Builder platform is made by, buildership platform is made by",
             "callToActionText": "Ver precio",
-            "callToActionUrl": "/new-arrivals",
+            "callToActionUrl": "/sale/d",
             "blockClass": "info-card-example",
-            "textAlignment": "center"
+            "textAlignment": "left"
+        }
+    },
+    "info-card#card5": {
+        "props": {
+            "id": "info-card-card1",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "assets/img/image_phone.png",
+            "headline": "Heading",
+            "bodyText": "Builder platform is made by, buildership platform is made by",
+            "callToActionText": "Ver precio",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-example",
+            "textAlignment": "left"
         }
     }
-
 }

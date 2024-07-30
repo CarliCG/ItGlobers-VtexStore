@@ -29,9 +29,8 @@
       "flex-layout.col#cardContainer1",
       "flex-layout.col#cardContainer1",
       "flex-layout.col#cardContainer1",
-      "flex-layout.col#cardContainer1",
-      "flex-layout.col#cardContainer1",
       "flex-layout.col#cardContainer1"
+      
       
     ]
   },
@@ -150,10 +149,10 @@
   "rich-text#button--card1": {
     "title": "Text button",
     "props": {
+      "text": "[Ver precio](https:)",
       "blockClass": [
         "price--button"
-      ],
-      "text": "Ver precio"
+      ]      
     }
   }
 }
