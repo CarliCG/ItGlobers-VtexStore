@@ -1,0 +1,16 @@
+.sliderLayoutContainer--slider {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  .sliderLayoutContainer--slider--cards_img {
+    /*   display:flex;
+    flex-direction:row;
+    align-items: center;
+    position: relative; */
+    padding-right: 40px;
+    padding-left: 40px;
+  
+  }
+  .item-inline {
+    display: inline-block;
+  }

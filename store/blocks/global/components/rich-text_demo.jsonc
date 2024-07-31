@@ -8,7 +8,7 @@
       "blockClass": "desktopContainer"
     }
   },
-"flex-layout.col#-desktop": {
+  "flex-layout.col#-desktop": {
     "props": {
       "blockClass": "desktopContainer",
       "horizontalAlign": "center",
@@ -21,14 +21,11 @@
   "image#desktop1": {
     "title": "Image Principal Desktop",
     "props": {
-      
       "src": "assets/img/Hero_Desktop.png",
-      "isFullModeStyle":true,
+      "isFullModeStyle": true,
       "blockClass": "desktopImage"
-      
     }
   }
-
   /*
 "flex-layout.col#text_one--home": {
     "title": "Text col one home",

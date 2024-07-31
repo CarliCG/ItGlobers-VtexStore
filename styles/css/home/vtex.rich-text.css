@@ -49,9 +49,9 @@
 }
 
 .wrapper--amazingP {
-    
+
     height: 30px;
-    
+
 }
 
 /*Slider 2*/
@@ -71,4 +71,37 @@
     width: auto;
     height: 60px;
     margin-top: -40px;
+}
+
+/*Nuevo Cards Info*/
+.wrapper--card--button {
+    width: 134px;
+    height: 43px;
+    border: 1px solid rgba(29, 39, 52, 1);
+    border-color: rgba(29, 39, 52, 1);
+    background-color: rgba(29, 39, 52, 1);
+    border-radius: 40px;
+    padding: 8px;
+    gap: 8px;
+    
+}
+.wrapper--text--description{
+width: 247px;
+height: 30px;
+padding: 0px, 0px, 0px, 13px;
+
+}
+.wrapper--text--title{
+    width: 247px;
+    height: 25px;
+    padding: 0px, 0px, 0px, 13px;
+    
+}
+.link--card--button{    
+    color: rgba(255, 255, 255, 1);    
+}
+.paragraph--card--button{
+    margin-left: 5px;
+    margin-top: -1px;
+     
 }
