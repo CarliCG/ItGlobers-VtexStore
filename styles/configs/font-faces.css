@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Lexend SemiBold';
+    font-style: normal;
+    src: url('assets/fonts/Lexend-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Lexend Bold';
+    font-style: normal;
+    src: url('assets/fonts/Lexend-Bold.ttf');
+}
+@font-face {
+    font-family: 'Lexend Extra Light';
+    font-style: normal;
+    src: url('assets/fonts/Lexend-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Light';
+    font-style: normal;
+    src: url('assets/fonts/Lexend-Light.ttf');
+}
+@font-face {
+    font-family: 'Lexend Regular';
+    font-style: normal;
+    src: url('assets/fonts/Lexend-Regular.ttf');
+}
+@font-face {
+    font-family: 'Lexend Extra Bold';
+    font-style: normal;
+    src: url('assets/fonts/Lexend-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Black';
+    font-style: normal;
+    src: url('assets/fonts/Lexend-Black.ttf');
+}

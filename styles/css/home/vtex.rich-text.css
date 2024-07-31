@@ -1,0 +1,74 @@
+/*
+.paragraph--iWatch {
+    color: rgba(29, 39, 52, 1);
+    margin-top: 150px;
+}
+
+.paragraph--ultra2 {
+    color: rgba(255, 131, 36, 1)
+}
+
+.paragraph--amazing {
+    color: rgba(29, 39, 52, 1)
+}
+*/
+
+/*Silder 1*/
+.container--containerHeading {
+    width: 147px;
+    height: 25px;
+    padding: 0px 0px 0px 13px;
+    align-items: center;
+    display: flex;
+
+}
+
+.container--paragraph1 {
+    align-items: left;
+    width: 247px;
+    height: 55px;
+}
+
+.wrapper--paragraph1 {
+    width: 247px;
+    height: 55px;
+    padding: 0px 0px 0px 13px;
+    text-align: left;
+
+}
+
+/*container paragraph slider 1*/
+
+.container--text-paragraph {
+    width: 280px;
+}
+
+/*Text Separtor Amazing Products*/
+.container--amazingP {
+    height: auto;
+}
+
+.wrapper--amazingP {
+    
+    height: 30px;
+    
+}
+
+/*Slider 2*/
+.paragraph--Slider-description-text {
+    color: rgba(29, 39, 52, 0.6);
+    align-items: center;
+}
+
+.paragraph--text_no_discount {
+    color: rgba(29, 39, 52, 0.6);
+    text-decoration: line-through;
+}
+
+/*precio con descuento contenedor*/
+.wrapper--text_discount {
+    color: rgba(29, 39, 52, 1);
+    width: auto;
+    height: 60px;
+    margin-top: -40px;
+}

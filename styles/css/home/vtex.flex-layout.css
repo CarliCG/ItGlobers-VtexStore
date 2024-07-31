@@ -1,0 +1,74 @@
+/*slider 1*/
+
+/*card slider 1 container*/
+.flexRow--image_slider1--desktop {
+  margin: 40px;
+
+}
+
+/*slider 1 container text, paragrph and logo 2*/
+.flexRowContent--text--card {
+  padding: 10px;
+}
+.flexRowContent--row_image--phone{
+  width: 324px;
+  height: 186px;
+}
+
+/*Separator Amazing Products*/
+.flexRow--desktopContainerTotal {
+  margin: 5px;
+
+}
+
+
+/*slider 2*/
+/*slider 2 image Envio Gratis*/
+.flexRowContent--freeShipping {
+  height: 17px;
+  width: 94px;
+  justify-content: left
+}
+
+/* Contenedor de todos los product slider 2 */
+.flexRow--image_slider2--desktop {
+  margin: 40px;
+
+}
+
+/* Contenedor de todos los product slider 2 */
+.flexCol--infocard--desktop {
+  height: auto;
+  width: 220px;
+}
+
+.flexCol--card-container{
+  width: 324px !important;
+  height: 336px !important;
+  margin-right: 20px;
+  
+}
+.slideChildrenContainer--imagePhone__slider{
+  margin: 20px;
+}
+
+/* Contenedor imagenes info Card 
+.flexRow--card-info-column {
+  width: 1092px;
+  height: 340px;
+  align-items: center;
+}
+
+.flexColChild--cardContainerA {
+  border-radius: 10px 10px 0px 0px;
+  border: 5px solid #e90f0f;
+  width: 324px;
+  height: 336px;
+  
+}*/
+
+/*.flexCol--cardContainerA{
+  display: flex;
+  flex-direction: row;
+  
+}*/
