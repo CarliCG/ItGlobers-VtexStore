@@ -13,13 +13,13 @@
   "slider-layout#products-images--desktop": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 3,
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "always",
-      "showPaginationDots": "always",
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always", 
       "blockClass": [
         "imageScreen_slider2"
       ]
@@ -41,6 +41,7 @@
       "flex-layout.row#price1",
       "flex-layout.row#price2",
       "flex-layout.row#imageFreeShip"
+      
     ],
     "props": {
       "blockClass": [
@@ -169,4 +170,5 @@
       ]
     }
   }
+   
 }

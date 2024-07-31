@@ -19,8 +19,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "showPaginationDots": "always",
-      "height": 340,
+      "showPaginationDots": "always",      
       "blockClass": [
         "slider"
       ]
@@ -155,26 +154,10 @@
     "title": "button for 'ver el precio' ",
     "props": {
       "blockClass": "card--button",
-      "text": "[Ver precio](https://)",
-      "font": "t-heading-4"
+      "text": "Ver Precio",
+      "font": "t-heading-4",
+      "url":"https://"
     }
   }
-  /* "rich-text#card--button": {
-    "title": "Text button",
-    "props": {
-      "blockClass": [
-        "text--button"
-      ],
-      "text": "Ver precio"
-    }
-  },
-  "image#arrow--card": {
-    "title": "arrow right in the button",
-    "props": {
-      "blockClass": [
-        "arrow--text"
-      ],
-      "src": "assets/img/card_slider_one_infocard/vector_arrow.png"
-    }
-  } */
+ 
 }

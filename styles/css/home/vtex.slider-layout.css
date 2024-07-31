@@ -14,3 +14,9 @@
   .item-inline {
     display: inline-block;
   }
+
+  .sliderLayoutContainer--slider{
+    width: 1092px;
+    height: 340px;    
+    margin-top: 40px;
+  }
