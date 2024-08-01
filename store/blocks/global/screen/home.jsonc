@@ -9,7 +9,8 @@
       "flex-layout.row#slider2--home",
       "flex-layout.row#separator",
       "flex-layout.row#slider1__infoCards",      
-      "flex-layout.row#separator" 
+      "flex-layout.row#separator",
+      "flex-layout.row#slider2--home" 
       
     ]
   }

@@ -1,16 +1,21 @@
 /*slider 1*/
+.flexRow--Slider__cointeiner {
+  width: 100%;
+  height: 420px;
+  margin: 0;
+  background-color: #f5f4f6;
+}
 
 /*card slider 1 container*/
 .flexRow--image_slider1--desktop {
-  margin: 40px;
-
+  margin: 20px;
 }
 
-/*slider 1 container text, paragrph and logo 2*/
+/*slider 1 container text, paragraph and logo 2*/
 .flexRowContent--text--card {
   padding: 10px;
 }
-.flexRowContent--row_image--phone{
+.flexRowContent--row_image--phone {
   width: 324px;
   height: 186px;
 }
@@ -18,50 +23,28 @@
 /*Separator Amazing Products*/
 .flexRow--desktopContainerTotal {
   margin: 5px;
-
 }
-
 
 /*slider 2*/
 /*slider 2 image Envio Gratis*/
 .flexRowContent--freeShipping {
   height: 17px;
   width: 94px;
-  justify-content: left
-}
-
-/* Contenedor de todos los product slider 2 */
-.flexRow--image_slider2--desktop {
-  margin: 40px;
-
+  justify-content: left;
 }
 
 /* Contenedor de todos los product slider 2 */
 .flexCol--infocard--desktop {
-  height: auto;
-  width: 220px;
+  width: 212px;
+  height: 378px;
+  position: inherit;  
 }
 
-.flexCol--card-container{
-  width: 324px !important;
-  height: 336px !important;
-  margin-right: 20px;
-  
-}
-.slideChildrenContainer--imagePhone__slider{
-  margin: 20px;
+.flexColChild--infocard--desktop {
+  width: 212px;
+  height: 378px;
 }
 
-.flexRow--Slider__cointeiner {
-  width: 100%;
-  height: 420px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  background-color: #f5f4f6;
-  /* gap: 24px;
-  padding: 20px;
-   */
-}
 .flexCol--full__card {
   border-radius: 12px;
   width: 324px;
@@ -71,10 +54,77 @@
 }
 
 .flexRow--card--button {
-  display: flex;
   justify-content: center;
 }
-.flexCol--card__title--description{
+
+.flexCol--card__title--description {
   margin-left: 15px;
   text-decoration: none;
+}
+
+.flexRowContent--price1_noDiscount {
+  width: 68px;
+  height: 16px;
+}
+
+.flexRowContent--space-desktop-description {
+  margin-bottom: -5px;
+}
+
+/* Responsive Styles */
+
+/* Tablets (Portrait and Landscape) */
+@media (max-width: 768px) {
+  .flexRow--Slider__cointeiner {
+    height: auto; /* Adjust height as needed */
+  }
+  
+  .flexRow--image_slider1--desktop {
+    margin: 10px;
+  }
+
+  .flexRowContent--row_image--phone {
+    width: 100%;
+    height: auto;
+  }
+
+  .flexCol--infocard--desktop,
+  .flexColChild--infocard--desktop,
+  .flexCol--full__card {
+    width: 100%;
+    height: auto; /* Adjust height as needed */
+    margin: 10px 0;
+  }
+
+  .flexRowContent--freeShipping {
+    width: auto; /* Adjust width as needed */
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .flexRow--Slider__cointeiner {
+    height: auto; /* Adjust height as needed */
+  }
+
+  .flexRow--image_slider1--desktop {
+    margin: 5px;
+  }
+
+  .flexRowContent--row_image--phone {
+    width: 100%;
+    height: auto;
+  }
+
+  .flexCol--infocard--desktop,
+  .flexColChild--infocard--desktop,
+  .flexCol--full__card {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+  }
+
+  .flexRowContent--freeShipping {
+    width: auto; /* Adjust width as needed */
+  }
 }

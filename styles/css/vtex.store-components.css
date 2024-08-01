@@ -16,9 +16,28 @@
 }
 
 .imageElement--desktopImage {
-  width: 1580px;
-  height: 422px;
+  width: 100%; /* Ajusta al ancho del contenedor */
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
 }
+
+/* Responsive Styles */
+
+/* Tablets (Portrait and Landscape) */
+@media (max-width: 768px) {
+  .imageElement--desktopImage {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .imageElement--desktopImage {
+    width: 100%;
+    height: auto;
+  }
+}
+
 
 /* Slider 1 */
 .imageElement--cardImagePhone {
@@ -56,13 +75,6 @@
 
 }
 
-/* imagen Dot */
-
-.imageElement--image--dot {
-  height: 50px;
-  width: 231px;
-}
-
 /* Slider 1 */
 .slideChildrenContainer--imagePhone__slider {
   width: 324px;
@@ -74,3 +86,25 @@
     width: 324px;
     height: 186px;
   }
+
+  /* Slider 2 */
+  .imageElement--image-hert-like{
+    width: 212px;
+    height: 32px;
+  }
+  .imageElement--monitor_image{
+    width: 212px;
+    height: 140px;
+  }
+  /* image free shipping */
+  .imageElement--free-ship-image{
+    width: 94px;
+    height: 17px;
+  }
+  /* image button Comprar*/
+.imageElement--button-comprar-image{
+  width: 212px;
+  height: 48px;
+}
+
+ 

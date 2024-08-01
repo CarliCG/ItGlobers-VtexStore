@@ -154,9 +154,11 @@
     "title": "button for 'ver el precio' ",
     "props": {
       "blockClass": "card--button",
-      "text": "Ver Precio",
-      "font": "t-heading-4",
-      "url":"https://"
+      "text": "[Ver precio ->](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+      "font": "t-heading-4"
+      
     }
   }
  

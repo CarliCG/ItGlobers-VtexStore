@@ -23,7 +23,12 @@
     "props": {
       "src": "assets/img/Hero_Desktop.png",
       "isFullModeStyle": true,
-      "blockClass": "desktopImage"
+      "blockClass": "desktopImage",
+      "link": {
+        "url": "https://developers.vtex.com/docs/apps/vtex.flex-layout",
+        "noFollow": false,
+        "openNewTab": true
+      }
     }
   }
   /*

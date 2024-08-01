@@ -1,22 +1,9 @@
 .sliderLayoutContainer--slider {
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
-  .sliderLayoutContainer--slider--cards_img {
-    /*   display:flex;
-    flex-direction:row;
-    align-items: center;
-    position: relative; */
-    padding-right: 40px;
-    padding-left: 40px;
+.sliderLayoutContainer--imageScreen_slider2{
+  padding: 20px;
+  margin-bottom: 10px;
   
-  }
-  .item-inline {
-    display: inline-block;
-  }
-
-  .sliderLayoutContainer--slider{
-    width: 1092px;
-    height: 340px;    
-    margin-top: 40px;
-  }
+}

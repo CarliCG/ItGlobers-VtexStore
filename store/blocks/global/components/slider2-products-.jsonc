@@ -13,7 +13,7 @@
   "slider-layout#products-images--desktop": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 3,
         "phone": 1
       },
@@ -40,10 +40,12 @@
       "flex-layout.row#description",
       "flex-layout.row#price1",
       "flex-layout.row#price2",
-      "flex-layout.row#imageFreeShip"
+      "flex-layout.row#imageFreeShip",
+      "image#comprarButton"
       
     ],
     "props": {
+      
       "blockClass": [
         "infocard--desktop"
       ]
@@ -167,6 +169,17 @@
       "verticalAlign": "center",
       "blockClass": [
         "free-ship-image"
+      ]
+    }
+  },
+  "image#comprarButton": {
+    "title": "Image Comprar Button",
+    "props": {
+      "src": "assets/img/ButtonComprar.png",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": [
+        "button-comprar-image"
       ]
     }
   }

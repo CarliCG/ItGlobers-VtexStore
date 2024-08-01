@@ -20,7 +20,6 @@
     padding: 0px 0px 0px 13px;
     align-items: center;
     display: flex;
-
 }
 
 .container--paragraph1 {
@@ -34,11 +33,9 @@
     height: 55px;
     padding: 0px 0px 0px 13px;
     text-align: left;
-
 }
 
 /*container paragraph slider 1*/
-
 .container--text-paragraph {
     width: 280px;
 }
@@ -49,31 +46,10 @@
 }
 
 .wrapper--amazingP {
-
     height: 30px;
-
 }
 
-/*Slider 2*/
-.paragraph--Slider-description-text {
-    color: rgba(29, 39, 52, 0.6);
-    align-items: center;
-}
-
-.paragraph--text_no_discount {
-    color: rgba(29, 39, 52, 0.6);
-    text-decoration: line-through;
-}
-
-/*precio con descuento contenedor*/
-.wrapper--text_discount {
-    color: rgba(29, 39, 52, 1);
-    width: auto;
-    height: 60px;
-    margin-top: -40px;
-}
-
-/*Nuevo Cards Info*/
+/*Cards Info slider 1*/
 .wrapper--card--button {
     width: 134px;
     height: 43px;
@@ -84,25 +60,68 @@
     padding: 8px;
     gap: 8px;
     margin-top: 5px;
-
 }
 
 .wrapper--text--description {
     width: 247px;
     height: 30px;
-    padding: 0px, 0px, 0px, 13px;
-
+    padding: 0px 0px 0px 13px;
 }
 
 .wrapper--text--title {
     width: 247px;
     height: 25px;
-    padding: 0px, 0px, 0px, 13px;
-
+    padding: 0px 0px 0px 13px;
 }
 
-.paragraph--card--button { 
-    margin-left: 10px;
+.paragraph--card--button {
     margin-top: 2px;
-    color: aliceblue;    
+    color: rgb(255, 255, 255);
+}
+
+.link--card--button {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*Cards Info slider 2*/
+.paragraph--Slider-description-text {
+    color: rgba(29, 39, 52, 0.6);
+    align-items: center;
+}
+
+.container--Slider-description-text {
+    margin-top: -30px;
+}
+
+.wrapper--Slider-description-text {
+    width: 212px;
+    height: 51px;
+}
+
+/*precio sin descuento contenedor*/
+.paragraph--text_no_discount {
+    color: rgba(29, 39, 52, 0.6);
+    text-decoration: line-through;
+    margin-top: 18px;
+}
+
+/*precio con descuento contenedor*/
+.wrapper--text_discount {
+    color: rgba(29, 39, 52, 1);
+    width: 122px;
+    height: 38px;
+    margin-top: -25px;
+}
+
+.container--text_discount {
+    width: 122px;
+    height: 23px;
+    text-align: center;
+}
+
+.wrapper--comprar--button {
+    width: 212px;
+    height: 48px;
+    padding: 10px;
 }
