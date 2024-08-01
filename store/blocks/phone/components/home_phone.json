@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#phone_home_section--1": {
+        "title": "Phone row with text",
+        "children": [
+            "rich-text#phone_section--1"
+        ]
+    },
+    "rich-text#phone_section--1": {
+        "title": "TExt favoritos phone",
+        "props": {
+            "text": "PHONE",
+            "font": "t-heading-1",
+            "textAlignment": "CENTER",
+            "textPosition":"CENTER"
+        }
+    }
+}
