@@ -6,11 +6,9 @@
       "flex-layout.row#separator",
       "flex-layout.row#slider1__infoCards",      
       "flex-layout.row#separator",
-      "flex-layout.row#slider2--home",      
+      "list-context.product-list#Slider2",      
       "responsive-layout.desktop#home_section--1",
-     "responsive-layout.phone#home_section--1",
-     "responsive-layout.tablet#home_section--1",
-     "responsive-layout.mobile#home_section--1"
+      "responsive-layout.mobile#home_section--1"
      
     ]
   }

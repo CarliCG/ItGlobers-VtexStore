@@ -1,0 +1,89 @@
+{
+    "list-context.product-list#Slider2": {
+      "blocks": ["product-summary.shelf#Slider2"],
+      "children": ["slider-layout#product_summary_slider"]
+    },
+
+    "product-summary.shelf#Slider2": {
+        "children": [
+          "flex-layout.row#discount_favorite",
+          "product-summary-image",
+          "product-summary-space",
+          "product-summary-description",
+          "product-list-price",
+          "product-selling-price",
+          "add-to-cart-button"
+        ]
+    },
+
+    "slider-layout#product_summary_slider": {
+        "title": "product summary slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "centerMode": "CENTER",
+            "centerModeSlidesGap": 1,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "second-carousel--text"
+            },
+        "children": [
+        ]
+    },
+      
+    "flex-layout.row#discount_favorite": {
+      "children":[
+        "product-price-savings"
+        
+      ],
+      "props":{
+        "horizontalAlign": "between",
+        "colSizing": "auto",
+        "marginBottom": 5,
+        "blockClass": "discount_favorite"
+      }
+    },
+
+    "product-summary-image": {
+        "title": "image list",
+        "props": {
+          "showBadge": false,
+          "maxHeight": 210,
+          "aspectRatio": "1:1",
+          "blockClass": "computer--text"
+        }
+    },
+
+    "product-price-savings": {
+      "title": "discount text",
+      "props":{
+        "message": "{savingsPercentage} OFF"
+      }
+    },
+
+    "product-list-price": {
+      "title": "old price",
+      "props":{
+        "message": "{listPriceValue}"
+      }
+    },
+
+    "product-selling-price": {
+      "title": "actual price",
+      "props":{
+        "message": "{sellingPriceValue}"
+      }
+    },
+
+    "add-to-cart-button": {
+        "title": "Buy button",
+        "props":{
+            "text": "Comprar",
+            "blockClass": "shelf-button--text"
+        }
+    }    
+}
