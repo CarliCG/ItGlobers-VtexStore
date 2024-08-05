@@ -1,0 +1,22 @@
+/* final price */
+
+.sellingPrice--LastPrice{
+    background-color: rgb(255, 255, 255);
+    color: rgba(29, 39, 52, 1);
+    display: flex;
+    font: Lexend;
+    font-size: 24px;
+    justify-content: flex-start;
+    /* Alinea los elementos horizontalmente a la izquierda */
+}
+
+/* old price */
+.listPrice--priceNoDiscount {
+    
+    color: rgba(52, 36, 29, 0.4);
+    display: flex;
+    font-size: 14px;
+    justify-content: flex-start;
+    /* Alinea los elementos horizontalmente a la izquierda */
+    
+}

@@ -84,44 +84,5 @@
     text-decoration: none;
 }
 
-/*Cards Info slider 2*/
-.paragraph--Slider-description-text {
-    color: rgba(29, 39, 52, 0.6);
-    align-items: center;
-}
 
-.container--Slider-description-text {
-    margin-top: -30px;
-}
 
-.wrapper--Slider-description-text {
-    width: 212px;
-    height: 51px;
-}
-
-/*precio sin descuento contenedor*/
-.paragraph--text_no_discount {
-    color: rgba(29, 39, 52, 0.6);
-    text-decoration: line-through;
-    margin-top: 18px;
-}
-
-/*precio con descuento contenedor*/
-.wrapper--text_discount {
-    color: rgba(29, 39, 52, 1);
-    width: 122px;
-    height: 38px;
-    margin-top: -25px;
-}
-
-.container--text_discount {
-    width: 122px;
-    height: 23px;
-    text-align: center;
-}
-
-.wrapper--comprar--button {
-    width: 212px;
-    height: 48px;
-    padding: 10px;
-}

@@ -86,25 +86,3 @@
     width: 324px;
     height: 186px;
   }
-
-  /* Slider 2 */
-  .imageElement--image-hert-like{
-    width: 212px;
-    height: 32px;
-  }
-  .imageElement--monitor_image{
-    width: 212px;
-    height: 140px;
-  }
-  /* image free shipping */
-  .imageElement--free-ship-image{
-    width: 94px;
-    height: 17px;
-  }
-  /* image button Comprar*/
-.imageElement--button-comprar-image{
-  width: 212px;
-  height: 48px;
-}
-
- 

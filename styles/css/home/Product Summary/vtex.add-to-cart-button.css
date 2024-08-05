@@ -1,0 +1,25 @@
+
+
+  .buttonText--comprarButton {
+    color: rgba(29, 39, 52, 1);
+    text-transform: capitalize;
+    font-size: 14px;
+    align-content: center;
+    font: Lexend;
+}
+/*.buttonDataContainer-comprarButton{
+    width: 212px;
+    height: 48px;
+    gap: 10px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 8px;
+    background-color: rgb(160, 45, 45);
+}*/
+
+/*.buttonDataContainer--comprarButton{
+    width: 212px;
+    height: 48px;
+    background-color: rgb(238, 233, 242);
+}*/
+

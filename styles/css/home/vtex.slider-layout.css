@@ -34,6 +34,13 @@
   width: 212px;
 }
 
+.buttonDataContainer--comprarButton{
+  background-color: white;
+  height: 378px;
+  width: 212px;
+   }
+
+   
 /* Media Queries */
 
 /* Estilos para pantallas de escritorio grandes */
