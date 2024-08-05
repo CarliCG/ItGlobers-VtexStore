@@ -3,7 +3,7 @@
     "title": "mobile-info-card-banner",
     "props": {
       "src": "assets/img/Hero_Mobile.png",
-      "link": "https://developers.vtex.com/docs/apps/vtex.list@3.x/AddToListButton",
+      "imageActionUrl": "https://www.google.com/?hl=es",
       "maxHeight": "100%",
       "maxWidth": "100%",
       "blockClass": "info-mobile-banner"
