@@ -20,6 +20,7 @@
   width: 178px;
   height: 140px;
 }
+/*Diseño comprar button*/
 .element :global(.vtex-button) {
   width: 212px;
   height: 48px;

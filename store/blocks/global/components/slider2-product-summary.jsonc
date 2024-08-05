@@ -15,7 +15,7 @@
       "blockClass": "slider2Container"
     },
     "children": [
-      "flex-layout.row#discount_favorite",
+      "flex-layout.row#savings__and_wishlist-summary",
       "product-summary-image",
       "product-summary-space",
       "product-summary-description",
@@ -29,25 +29,39 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 3,
-        "phone": 1
+        "tablet": 2,
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": false,
       "arrowSize": 20,
-      "showNavigationArrows": "always",
+      "showNavigationArrows": "desktopOnly",
       "blockClass": "second-slider2--text"
     }
   },
-  "flex-layout.row#discount_favorite": {
+  "flex-layout.row#savings__and_wishlist-summary": {
     "children": [
-      "product-price-savings"
+      "product-price-savings",      
+      "add-to-list-btn#buyButton"
     ],
     "props": {
       "horizontalAlign": "between",
-      "colSizing": "auto",
-      "marginBottom": 5,
-      "blockClass": "discount_favorite"
+      
+      
+      "blockClass": "savings__and__wishlist__row--text"
+    }
+  },
+  "product-price-savings": {
+    "title": "discount text",
+    "props": {
+      "message": "{savingsPercentage} OFF",
+      "blockClass": "savings",
+      "percentageStyle": "compact"
+    }
+  },
+  "add-to-list-btn#buyButton": {
+    "props": {
+      "blockClass": "wishlist__button"
     }
   },
   "product-summary-image": {
@@ -61,13 +75,6 @@
     "title": "description product",
     "props": {
       "blockClass": "description--text"
-    }
-  },
-  "product-price-savings": {
-    "title": "discount text",
-    "props": {
-      "message": "{savingsPercentage} OFF",
-      "blockClass": "savings"
     }
   },
   "product-list-price": {

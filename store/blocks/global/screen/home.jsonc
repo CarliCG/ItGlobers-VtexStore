@@ -1,15 +1,12 @@
 {
   "store.home": {
     "blocks": [
-    
-      "flex-layout.row#text_one--home",
-      "flex-layout.row#separator",
-      "flex-layout.row#slider1__infoCards",      
-      "flex-layout.row#separator",
-      "list-context.product-list#Slider2",      
-      "responsive-layout.desktop#home_section--1",
-      "responsive-layout.mobile#home_section--1"
-     
-    ]
+    "responsive-layout.desktop#home_section--1",
+    "responsive-layout.mobile#home_section--1"
+          
+    ],
+    "props": {
+      "blockClass": "home-container--text"
+    }
   }
 }

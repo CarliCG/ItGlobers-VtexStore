@@ -24,4 +24,19 @@
 .flexRow--desktopContainerTotal {
   margin: 5px;
 }
-
+/*button wish list summary
+.flexRowContent--savings__and__wishlist__row--text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px; 
+}*/
+.flexRow--savings__and__wishlist__row--text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px;
+  
+}
