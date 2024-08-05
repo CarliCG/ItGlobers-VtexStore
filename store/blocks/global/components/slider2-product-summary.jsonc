@@ -1,89 +1,98 @@
 {
-    "list-context.product-list#Slider2": {
-      "blocks": ["product-summary.shelf#Slider2"],
-      "children": ["slider-layout#product_summary_slider"]
+  "list-context.product-list#Slider2": {
+    "blocks": [
+      "product-summary.shelf#Slider2"
+    ],
+    "children": [
+      "slider-layout#product_summary_slider"
+    ],
+    "props": {
+      "blockClass": "slider2ContainerCards"
+    }
+  },
+  "product-summary.shelf#Slider2": {
+    "props": {
+      "blockClass": "slider2Container"
     },
+    "children": [
+      "flex-layout.row#discount_favorite",
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-description",
+      "product-list-price",
+      "product-selling-price#summary",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#product_summary_slider": {
+    "title": "product summary slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "arrowSize": 20,     
+      "showNavigationArrows": "always",
+      "blockClass": "second-slider2--text"
+    }   
+  },
 
-    "product-summary.shelf#Slider2": {
-        "children": [
-          "flex-layout.row#discount_favorite",
-          "product-summary-image",
-          "product-summary-space",
-          "product-summary-description",
-          "product-list-price",
-          "product-selling-price",
-          "add-to-cart-button"
-        ]
-    },
-
-    "slider-layout#product_summary_slider": {
-        "title": "product summary slider",
-        "props": {
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 2,
-                "phone": 2
-            },
-            "infinite": true,
-            "fullWidth": true,
-            "centerMode": "CENTER",
-            "centerModeSlidesGap": 1,
-            "showNavigationArrows": "desktopOnly",
-            "blockClass": "second-carousel--text"
-            },
-        "children": [
-        ]
-    },
-      
-    "flex-layout.row#discount_favorite": {
-      "children":[
-        "product-price-savings"
-        
+  "flex-layout.row#discount_favorite": {
+    "children": [
+      "product-price-savings"
+    ],
+    "props": {
+      "horizontalAlign": "between",
+      "colSizing": "auto",
+      "marginBottom": 5,
+      "blockClass": "discount_favorite"
+    }
+  },
+  "product-summary-image": {
+    "title": "image list",
+    "props": {
+      "showBadge": false,
+      "blockClass": "image--summary"
+    }
+  },
+  "product-summary-description": {
+    "title": "description product",
+    "props": {
+      "blockClass": "description--text"
+    }
+  },
+  "product-price-savings": {
+    "title": "discount text",
+    "props": {
+      "message": "{savingsPercentage} OFF",
+       "blockClass":"savings"
+    }
+  },
+  "product-list-price": {
+    "title": "old price",
+    "props": {
+      "message": "{listPriceValue}",
+       "blockClass":"priceNoDiscount"
+    }
+  },
+  "product-selling-price#summary": {
+    "title": "last price for selling",
+    "props": {
+      "message": "{sellingPriceValue}",
+      "markers": [
+        "highlight"
       ],
-      "props":{
-        "horizontalAlign": "between",
-        "colSizing": "auto",
-        "marginBottom": 5,
-        "blockClass": "discount_favorite"
-      }
-    },
-
-    "product-summary-image": {
-        "title": "image list",
-        "props": {
-          "showBadge": false,
-          "maxHeight": 210,
-          "aspectRatio": "1:1",
-          "blockClass": "computer--text"
-        }
-    },
-
-    "product-price-savings": {
-      "title": "discount text",
-      "props":{
-        "message": "{savingsPercentage} OFF"
-      }
-    },
-
-    "product-list-price": {
-      "title": "old price",
-      "props":{
-        "message": "{listPriceValue}"
-      }
-    },
-
-    "product-selling-price": {
-      "title": "actual price",
-      "props":{
-        "message": "{sellingPriceValue}"
-      }
-    },
-
-    "add-to-cart-button": {
-        "title": "Buy button",
-        "props":{
-            "text": "Comprar",
-            "blockClass": "shelf-button--text"
-        }
-    }    
+      "blockClass":"LastPrice"
+    }
+  },
+  "add-to-cart-button": {
+    "title": "Buy button-Comprar",
+    "props": {
+      "text": "Comprar",
+      "blockClass": "comprarButton"
+    }
+  }
 }

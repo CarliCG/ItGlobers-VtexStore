@@ -12,11 +12,7 @@
   },
   "slider-layout#products-images--desktop": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 1
-      },
+    
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "always", 

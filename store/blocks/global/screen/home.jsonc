@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-     
+    
       "flex-layout.row#text_one--home",
       "flex-layout.row#separator",
       "flex-layout.row#slider1__infoCards",      

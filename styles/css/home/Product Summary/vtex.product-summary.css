@@ -1,8 +1,22 @@
-.description {
+/*Silder 2 product summary*/
+.clearLink--slider2Container{
+  width: auto;
+  height: 378px;
+}
+.containerNormal--slider2Container{
+  width: 212px;
+  height: 378px;
+}
+.description--description--text {
   color: rgba(29, 39, 52, 0.6);
   opacity: 60%;
   font-family: "lexend";
   font-weight: 400;
   font-size: 14px;
-  line-height: 16.8px;
+  text-align: left;
+}
+
+.image--image--summary {
+  width: 178px;
+  height: 140px;
 }

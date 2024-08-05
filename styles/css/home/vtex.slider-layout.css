@@ -1,9 +1,136 @@
+/* Estilos por defecto (Desktop) */
 .sliderLayoutContainer--slider {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.sliderLayoutContainer--imageScreen_slider2 {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+/*Silder 2 product summary*/
+.sliderTrack--second-slider2--text {
+  width: 1092px;
+  height: 378px;
+  padding: 20px;
+  margin-bottom: 10px;  
+}
+
+.slide--second-slider2--text {  
+  height: 378px !important;
+  width: 212px !important;  
+}
+
+.slideChildrenContainer--second-slider2--text {
+  background-color: rgba(255, 255, 255, 1);
+  height: 378px;
+  width: 212px;
+}
+
+.element--slider2Container {
+  background-color: black;
+  height: 378px;
+  width: 212px;
+}
+
+/* Media Queries */
+
+/* Estilos para pantallas de escritorio grandes */
+@media (min-width: 992px) {
+  .sliderLayoutContainer--slider {
     padding: 20px;
     margin-bottom: 10px;
   }
-.sliderLayoutContainer--imageScreen_slider2{
-  padding: 20px;
-  margin-bottom: 10px;
-  
+
+  .sliderLayoutContainer--imageScreen_slider2 {
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  .sliderTrack--second-slider2--text {
+    width: 1092px;
+    height: 378px;
+    padding: 20px;
+    margin-bottom: 10px;  
+  }
+
+  .slide--second-slider2--text {
+    height: 378px !important;
+    width: 212px !important;
+  }
+
+  .slideChildrenContainer--second-slider2--text {
+    height: 378px;
+    width: 212px;
+  }
+
+  .element--slider2Container {
+    height: 378px;
+    width: 212px;
+  }
+}
+
+/* Estilos para pantallas móviles */
+@media (max-width: 991px) {
+  .sliderLayoutContainer--slider {
+    padding: 15px;
+    margin-bottom: 8px;
+  }
+
+  .sliderLayoutContainer--imageScreen_slider2 {
+    padding: 15px;
+    margin-bottom: 8px;
+  }
+
+  .sliderTrack--second-slider2--text {
+    width: 900px; /* Ajusta según el tamaño de la pantalla */
+  }
+
+  .slide--second-slider2--text {
+    height: 320px !important; /* Ajusta la altura si es necesario */
+    width: 180px !important;  /* Ajusta el ancho si es necesario */
+  }
+
+  .slideChildrenContainer--second-slider2--text {
+    height: 320px;
+    width: 180px;
+  }
+
+  .element--slider2Container {
+    height: 320px;
+    width: 180px;
+  }
+}
+
+/* Estilos para pantallas móviles pequeñas */
+@media (max-width: 767px) {
+  .sliderLayoutContainer--slider {
+    padding: 10px;
+    margin-bottom: 6px;
+  }
+
+  .sliderLayoutContainer--imageScreen_slider2 {
+    padding: 10px;
+    margin-bottom: 6px;
+  }
+
+  .sliderTrack--second-slider2--text {
+    width: 700px; /* Ajusta según el tamaño de la pantalla */
+  }
+
+  .slide--second-slider2--text {
+    height: 280px !important;
+    width: 150px !important;
+  }
+
+  .slideChildrenContainer--second-slider2--text {
+    height: 280px;
+    width: 150px;
+  }
+
+  .element--slider2Container {
+    height: 280px;
+    width: 150px;
+  }
 }
