@@ -1,0 +1,25 @@
+{
+    "sticky-layout#mobile": {
+        "children": [
+            "flex-layout.row#mobile"
+        ]
+    },
+    "flex-layout.row#mobile": {
+        "children": [
+            "drawer",
+            "logo",
+            "flex-layout.col#spacer",
+            "minicart.v2",
+            "login"
+        ],
+        "props": {
+            "blockClass": "main-header-mobile",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
+    "drawer": {
+        "children": []
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "sticky-layout#desktop": {
+        "title": "header desktop",
+        "props": {
+            "blockClass": "sticky-header"
+        },
+        "children": [
+            "flex-layout.row#desktop"
+        ]
+    },
+    "flex-layout.row#desktop": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "drawer",
+            "logo",
+            "search-bar",
+            "flex-layout.col#spacer",
+            "flex-layout.row#buttonsDesktop",
+            "minicart.v2",
+            "login"
+        ]
+    },
+    "flex-layout.row#buttonsDesktop": {
+        "title": "Row header desktop options",
+        "children": [
+            "flex-layout.col#tendencias",
+            "flex-layout.col#coleccion",
+            "flex-layout.col#oferta",
+            "flex-layout.col#cyber",
+            "flex-layout.col#never"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": "center",
+            "preventVerticalStretch": "center",
+            "fullWidth": true,
+            "blockClass": [
+                "header_desktop"
+            ]
+        }
+    },
+    "flex-layout.col#tendencias": {
+        "title": "Tendencias link",
+        "children": [
+            "rich-text#tendencia"
+        ],
+        "props": {}
+    },
+    "rich-text#tendencia": {
+        "title": "tendencias text",
+        "props": {
+            "text": "[Tendencias de ITGlobers](http://)",
+            "blockClass": [
+                "col1"
+            ]
+        }
+    },
+    "flex-layout.col#coleccion": {
+        "title": "Coleccion del mes link",
+        "children": [
+            "rich-text#coleccion"
+        ],
+        "props": {}
+    },
+    "rich-text#coleccion": {
+        "title": "Text coleccion",
+        "props": {
+            "text": "[Coleccion del mes](http://)",            
+            "textAlignment": "RIGHT",
+            "blockClass": [
+                "col2"
+            ]
+        }
+    },
+    "flex-layout.col#oferta": {
+        "title": "Ofertas enero link ",
+        "children": [
+            "rich-text#ofertas"
+        ],
+        "props": {}
+    },
+    "rich-text#ofertas": {
+        "title": "Text ofertas",
+        "props": {
+            "text": "[Ofertas enero](http://)",
+            "blockClass": [
+                "col3"
+            ]
+        }
+    },
+    "flex-layout.col#cyber": {
+        "title": "cyber monday link",
+        "children": [
+            "rich-text#cyber"
+        ],
+        "props": {}
+    },
+    "rich-text#cyber": {
+        "title": "Text coleccion",
+        "props": {
+            "text": "[Cyber Monday](http://)",
+            "blockClass": [
+                "col4"
+            ]
+        }
+    },
+    "flex-layout.col#never": {
+        "title": "Never say never link",
+        "children": [
+            "rich-text#Never"
+        ],
+        "props": {}
+    },
+    "rich-text#Never": {
+        "title": "Never say never text",
+        "props": {
+            "text": "[Never say never](http://)",
+            "blockClass": [
+                "col5"
+            ]
+        }
+    }
+}
