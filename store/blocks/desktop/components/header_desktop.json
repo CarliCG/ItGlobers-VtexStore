@@ -5,7 +5,8 @@
             "blockClass": "sticky-header"
         },
         "children": [
-            "flex-layout.row#desktop"
+            "flex-layout.row#desktop",
+            "flex-layout.row#desktopIcons"
         ]
     },
     "flex-layout.row#desktop": {
@@ -14,7 +15,8 @@
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
-            "fullWidth": true
+            "fullWidth": true,
+            "blockClass": "sticky-header"
         },
         "children": [
             "drawer",
@@ -25,6 +27,286 @@
             "minicart.v2",
             "login"
         ]
+    },
+    "flex-layout.row#desktopIcons": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "header-icons"
+        },
+        "children": [
+            "flex-layout.col#food_home",
+            "flex-layout.col#fitness-home",
+            "flex-layout.col#artico-home",
+            "flex-layout.col#poolday-home",
+            "flex-layout.col#hotel-home",
+            "flex-layout.col#casas-home",
+            "flex-layout.col#hotel-home",
+            "flex-layout.col#naturales-home",
+            "flex-layout.col#closet-home",
+            "flex-layout.col#playas-home",
+            "flex-layout.col#alpinismo-home",
+            "flex-layout.col#delivery-home",
+            "flex-layout.col#cerveza-home"
+        ]
+    },
+    "flex-layout.col#food_home": {
+        "title": "Element food",
+        "children": [
+            "image#link_food"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_food": {
+        "title": " Image link food",
+        "props": {
+            "src": "assets/img/nav_bar/food.png",
+            "alt": "food",
+            "link": {
+                "url": "https://",
+                "blockClass": [
+                "icon"
+            ]
+            }
+        }
+    },
+    "flex-layout.col#fitness-home": {
+        "title": "Element fitness",
+        "children": [
+            "image#link_fitness"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_fitness": {
+        "title": " Image link fitness",
+        "props": {
+            "src": "assets/img/nav_bar/fitness.png",
+            "alt": "Fitness",
+            "link": {
+                "url": "https://"
+            }
+        }
+    },
+    "flex-layout.col#artico-home": {
+        "title": "Element fitness",
+        "children": [
+            "image#link_artico"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_artico": {
+        "title": " Image link artico",
+        "props": {
+            "src": "assets/img/nav_bar/artico.png",
+            "alt": "Artico",
+            "link": {
+                "url": "https://"
+            }
+        }
+    },
+    "flex-layout.col#poolday-home": {
+        "title": "Element poolday",
+        "children": [
+            "image#link_poolday"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_poolday": {
+        "title": " Image link poolday",
+        "props": {
+            "src": "assets/img/nav_bar/poolday.png",
+            "alt": "Poolday",
+            "link": {
+                "url": "https://"
+            }
+        }
+    },
+    "flex-layout.col#hotel-home": {
+        "title": "Element hotel",
+        "children": [
+            "image#link_hotel"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_hotel": {
+        "title": " Image link hotel",
+        "props": {
+            "src": "assets/img/nav_bar/hotel.png",
+            "alt": "hotel",
+            "link": {
+                "url": "https://"
+            }
+        }
+    },
+    "flex-layout.col#casas-home": {
+        "title": "Element casas",
+        "children": [
+            "image#link_casas"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_casas": {
+        "title": " Image link casas",
+        "props": {
+            "src": "assets/img/nav_bar/casas.png",
+            "alt": "casas",
+            "link": {
+                "url": "https://"
+            }
+        }
+    },
+    "flex-layout.col#naturales-home": {
+        "title": "Element naturales",
+        "children": [
+            "image#link_naturales"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_naturales": {
+        "title": " Image link naturales",
+        "props": {
+            "src": "assets/img/nav_bar/naturales.png",
+            "alt": "naturales",
+            "link": {
+                "url": "https://"
+            }
+        }
+    },
+    "flex-layout.col#closet-home": {
+        "title": "Element closet",
+        "children": [
+            "image#link_closet"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_closet": {
+        "title": " Image link closet",
+        "props": {
+            "src": "assets/img/nav_bar/closet.png",
+            "alt": "closet",
+            "link": {
+                "url": "https://"
+            }
+        }
+    },
+    "flex-layout.col#playas-home": {
+        "title": "Element playas",
+        "children": [
+            "image#link_playas"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_playas": {
+        "title": " Image link playas",
+        "props": {
+            "src": "assets/img/nav_bar/playas.png",
+            "alt": "playas",
+            "link": {
+                "url": "https://"
+            }
+        }
+    },
+"flex-layout.col#alpinismo-home": {
+        "title": "Element alpinismo",
+        "children": [
+            "image#link_alpinismo"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_alpinismo": {
+        "title": " Image link alpinismo",
+        "props": {
+            "src": "assets/img/nav_bar/alpinismo.png",
+            "alt": "alpinismo",
+            "link": {
+                "url": "https://"
+            }
+        }
+    },
+"flex-layout.col#delivery-home": {
+        "title": "Element delivery",
+        "children": [
+            "image#link_delivery"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_delivery": {
+        "title": " Image link delivery",
+        "props": {
+            "src": "assets/img/nav_bar/delivery.png",
+            "alt": "delivery",
+            "link": {
+                "url": "https://"
+            }
+        }
+    },
+"flex-layout.col#cerveza-home": {
+        "title": "Element cerveza",
+        "children": [
+            "image#link_cerveza"
+        ],
+        "props": {
+            "blockClass": [
+                "icon"
+            ]
+        }
+    },
+    "image#link_cerveza": {
+        "title": " Image link cerveza",
+        "props": {
+            "src": "assets/img/nav_bar/cerveza.png",
+            "alt": "cerveza",
+            "link": {
+                "url": "https://"
+            }
+        }
     },
     "flex-layout.row#buttonsDesktop": {
         "title": "Row header desktop options",
@@ -72,7 +354,7 @@
     "rich-text#coleccion": {
         "title": "Text coleccion",
         "props": {
-            "text": "[Coleccion del mes](http://)",            
+            "text": "[Coleccion del mes](http://)",
             "textAlignment": "RIGHT",
             "blockClass": [
                 "col2"

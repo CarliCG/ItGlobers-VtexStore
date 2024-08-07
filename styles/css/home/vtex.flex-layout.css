@@ -40,3 +40,35 @@
   padding: 1px;
   
 }
+
+/*Header Icons*/
+.flexRowContent--header-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin-left: 100px;
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 1200px) {
+  .flexRowContent--header-icons {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flexRowContent--header-icons {
+    margin-left: 20px;
+    flex-direction: column; /* Cambia a columna en pantallas muy pequeñas */
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .flexRowContent--header-icons {
+    margin-left: 0;
+    flex-direction: column; /* Asegura que siga en columna en pantallas más pequeñas */
+    align-items: center; /* Centra los íconos horizontalmente */
+  }
+}

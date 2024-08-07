@@ -14,17 +14,12 @@
     border: 1px;
     padding: 6px, 12px, 6px, 12px;
 }*/
-
-.wishlistIconContainer {
-    width: 100%;
-}
-
 .wishlistIconContainer :global(.vtex-button) {
-   background-color: rgb(182, 97, 84);
-   margin-left: 40px;
+   background-color: rgb(84, 182, 87);
+   margin-left: 50px;
     width: 33px;
     height: 24px;
-    border-radius: 3px;
+    border-radius: 10px;
     
 }
 
@@ -32,7 +27,7 @@
     background: url("/arquivos/add-to--favorites.svg");
     background-repeat: no-repeat;
     background-position: center;
-    margin: 5px;
+    margin: 5px;    
 }
 
 .iconSize {
