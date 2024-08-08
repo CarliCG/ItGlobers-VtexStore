@@ -34,7 +34,6 @@
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
-            "fullWidth": true,
             "blockClass": "header-icons"
         },
         "children": [
@@ -72,8 +71,8 @@
             "link": {
                 "url": "https://",
                 "blockClass": [
-                "icon"
-            ]
+                    "icon"
+                ]
             }
         }
     },
@@ -245,7 +244,7 @@
             }
         }
     },
-"flex-layout.col#alpinismo-home": {
+    "flex-layout.col#alpinismo-home": {
         "title": "Element alpinismo",
         "children": [
             "image#link_alpinismo"
@@ -266,7 +265,7 @@
             }
         }
     },
-"flex-layout.col#delivery-home": {
+    "flex-layout.col#delivery-home": {
         "title": "Element delivery",
         "children": [
             "image#link_delivery"
@@ -287,7 +286,7 @@
             }
         }
     },
-"flex-layout.col#cerveza-home": {
+    "flex-layout.col#cerveza-home": {
         "title": "Element cerveza",
         "children": [
             "image#link_cerveza"

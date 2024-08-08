@@ -84,5 +84,10 @@
     text-decoration: none;
 }
 
-
+.link--col1,.link--col2,.link--col3,.link--col4, .link--col5{
+    color: rgba(29, 39, 52, 1);
+    font: Lexend-bold;
+    text-decoration: none;
+    margin: 10px;
+}
 

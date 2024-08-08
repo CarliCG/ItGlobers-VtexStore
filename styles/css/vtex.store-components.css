@@ -91,3 +91,26 @@
     width: 32px;
     height: 16px;
   }
+
+  /* color lupa */
+  :global(.vtex-input__suffix) {
+    background-color: #f5f4f6;
+  }
+  .searchBarIcon {
+    color: #1d2734;
+    margin-bottom: 12px;
+    padding-right: 0%;
+    /* background-color: aqua; */
+  }
+
+  .searchBarContainer {
+    /* background-color: aqua; */
+    width: 280px;
+    height: 40px;
+  }
+
+  /* search bar */
+  :global(.vtex-input-prefix__group) {
+    border-radius: 40px !important;
+    border: transparent;
+  }
