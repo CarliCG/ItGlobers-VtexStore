@@ -45,12 +45,11 @@
 .flexRowContent--header-icons {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start; /* Cambia de 'left' a 'flex-start' para la compatibilidad con flexbox */
+  align-items: left;
+
   overflow-x: auto; /* Permite el desplazamiento horizontal */
   overflow-y: hidden; /* Oculta el desplazamiento vertical */
-  white-space: nowrap; /* Evita el salto de línea en los íconos */
-  margin-left: 0; /* Ajusta el margen según tus necesidades */
+ 
 }
 
 /* Ajustes para pantallas más pequeñas */

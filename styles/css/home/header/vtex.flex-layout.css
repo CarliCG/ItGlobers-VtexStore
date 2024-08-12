@@ -1,0 +1,31 @@
+.flexRowContent--menu-bar {
+  display: flex;
+  justify-content: flex-start; /* Alinea los elementos al inicio del eje principal (horizontal) */
+  align-items: flex-start; /* Alinea los elementos al inicio del eje transversal (vertical) */
+  overflow-x: scroll; /* Permite el desbordamiento horizontal con scroll */
+  overflow-y: hidden; /* Oculta el desbordamiento vertical */
+  
+}
+
+  
+  .flexRowContent::-webkit-scrollbar {
+    height: 4px; 
+    background: transparent; 
+    
+  }
+
+.flexCol--menu_icon{
+  /*display: flex;
+  align-items: flex-start;*/
+  height: 47px !important;
+  width: 70px !important;
+  
+}
+.flexCol--icon_artico{
+  height: 47px !important;
+  width: 80px !important;
+}
+
+.flexRowContent{
+  width: 1280px;
+}

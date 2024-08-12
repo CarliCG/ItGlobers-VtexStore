@@ -20,10 +20,42 @@
       "product-summary-space",
       "product-summary-description",
       "product-list-price",
+      "flex-layout.row#product-highlights",
       "product-selling-price#summary",
       "flex-layout.row#product"
     ]
   },
+  "flex-layout.row#product-highlights":{
+    "children": ["vtex.product-highlights@2.x:product-highlights"
+    ],
+    "props":{"blockClass":"Container-product-highlights"}
+     },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "children": [ 
+      "product-highlight-text",
+      "icon#summary-list-flash"
+      ],
+      "props": {
+        "blockClass":"envioGratis"
+      
+      }
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "Envio gratis",
+      "blockClass": "envio-gratis"
+    }
+    
+  },
+"icon#summary-list-flash":{
+  "props":{
+    "id":"flash",
+    "size":"250px",
+    "viewBox":"0 0 20 20",
+    "blockClass":"envioGratis"
+}
+},
+
   "slider-layout#product_summary_slider": {
     "title": "product summary slider",
     "props": {
