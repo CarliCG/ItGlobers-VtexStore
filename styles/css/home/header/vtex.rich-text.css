@@ -7,6 +7,5 @@
 .wrapper--menu-header{
     display: flex;
     align-items: flex-start; /* Alinea el contenido al principio del contenedor */
-    height: auto;
-    
+    height: auto;    
 }

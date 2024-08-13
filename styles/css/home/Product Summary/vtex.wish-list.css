@@ -15,25 +15,14 @@
     padding: 6px, 12px, 6px, 12px;
 }*/
 .wishlistIconContainer :global(.vtex-button) {
-   background-color: rgb(84, 182, 87);
-   margin-left: 50px;
+    background-color: rgb(84, 182, 87);
+    margin-left: 50px;
     width: 33px;
     height: 24px;
     border-radius: 10px;
-    
+
 }
 
-.wishlistIcon {
-    background: url("/arquivos/add-to--favorites.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 5px;    
-}
-
-.iconSize {
-    padding-left: 1rem;
-    padding-right: 1.2rem;
-}
 
 @media screen and (max-width: 1024) {
 
@@ -42,14 +31,5 @@
         width: 15px;
     }
 
-    .wishlistIcon {
-        margin: 5px;
-    }
 
-    .iconSize {
-        padding-left: 1rem;
-        padding-right: 1.2rem;
-    }
-
-    
 }

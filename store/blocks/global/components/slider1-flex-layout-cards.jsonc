@@ -14,17 +14,21 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 1,
+        "tablet": 2,
         "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "showPaginationDots": "always",      
+      "centerMode": "to-the-left",
+      "showPaginationDots": "always",
       "blockClass": [
         "slider"
       ]
     },
     "children": [
+      "flex-layout.col#infoCard",
+      "flex-layout.col#infoCard",
+      "flex-layout.col#infoCard",
       "flex-layout.col#infoCard",
       "flex-layout.col#infoCard",
       "flex-layout.col#infoCard",
@@ -66,7 +70,7 @@
         "card__image--card"
       ]
     }
-  }, //
+  },
   "flex-layout.row#card__text": {
     "title": "Title, text and stamp",
     "props": {
@@ -110,8 +114,6 @@
         "text--description"
       ],
       "text": "Builder platform is made by, buildership platform is made by"
-      
-      
     }
   },
   "flex-layout.col#stamp": {
@@ -147,7 +149,6 @@
     },
     "children": [
       "rich-text#button"
-      
     ]
   },
   "rich-text#button": {
@@ -156,10 +157,8 @@
       "blockClass": "card--button",
       "text": "[Ver precio ->](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
       "textAlignment": "CENTER",
-          "textPosition": "CENTER",
+      "textPosition": "CENTER",
       "font": "t-heading-4"
-      
     }
   }
- 
 }

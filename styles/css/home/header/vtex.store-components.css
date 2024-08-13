@@ -1,4 +1,4 @@
-.logoContainer,.searchIcon, .suffixWrapper--search-bar-home-desktop {
+.logoContainer,.searchIcon {
     display: flex; /* Asegura que el contenedor use flexbox */
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */

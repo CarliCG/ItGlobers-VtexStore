@@ -1,37 +1,9 @@
-/*slider 1*/
-.flexRow--Slider__cointeiner {
-  width: 100%;
-  height: 420px;
-  margin: 0;
-  background-color: #f5f4f6;
-}
-
-/*card slider 1 container*/
-.flexRow--image_slider1--desktop {
-  margin: 20px;
-}
-
-/*slider 1 container text, paragraph and logo 2*/
-.flexRowContent--text--card {
-  padding: 10px;
-}
-.flexRowContent--row_image--phone {
-  width: 324px;
-  height: 186px;
-}
 
 /*Separator Amazing Products*/
 .flexRow--desktopContainerTotal {
-  margin: 5px;
+  margin: 10px;
 }
-/*button wish list summary
-.flexRowContent--savings__and__wishlist__row--text {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px; 
-}*/
+
 .flexRow--savings__and__wishlist__row--text {
   display: flex;
   flex-direction: row;

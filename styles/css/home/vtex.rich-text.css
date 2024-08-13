@@ -13,33 +13,6 @@
 }
 */
 
-/*Silder 1*/
-.container--containerHeading {
-    width: 147px;
-    height: 25px;
-    padding: 0px 0px 0px 13px;
-    align-items: center;
-    display: flex;
-}
-
-.container--paragraph1 {
-    align-items: left;
-    width: 247px;
-    height: 55px;
-}
-
-.wrapper--paragraph1 {
-    width: 247px;
-    height: 55px;
-    padding: 0px 0px 0px 13px;
-    text-align: left;
-}
-
-/*container paragraph slider 1*/
-.container--text-paragraph {
-    width: 280px;
-}
-
 /*Text Separtor Amazing Products*/
 .container--amazingP {
     height: auto;
@@ -61,19 +34,6 @@
     gap: 8px;
     margin-top: 5px;
 }
-
-.wrapper--text--description {
-    width: 247px;
-    height: 30px;
-    padding: 0px 0px 0px 13px;
-}
-
-.wrapper--text--title {
-    width: 247px;
-    height: 25px;
-    padding: 0px 0px 0px 13px;
-}
-
 .paragraph--card--button {
     margin-top: 2px;
     color: rgb(255, 255, 255);
@@ -90,4 +50,7 @@
     text-decoration: none;
     margin: 10px;
 }
-
+.container--text--title{
+    background-color: rgb(255, 255, 255);
+    width: 324px;
+}

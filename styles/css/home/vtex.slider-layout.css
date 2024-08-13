@@ -1,9 +1,3 @@
-/* Estilos por defecto (Desktop) */
-.sliderLayoutContainer--slider {
-  padding: 20px;
-  margin-bottom: 10px;
-}
-
 .sliderLayoutContainer--imageScreen_slider2 {
   padding: 20px;
   margin-bottom: 10px;
@@ -23,16 +17,11 @@
 }
 
 .slideChildrenContainer--second-slider2--text {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255);
   height: 378px;
   width: 212px;
 }
 
-.element--slider2Container {
-  background-color: black;
-  height: 378px;
-  width: 212px;
-}
 
 .buttonDataContainer--comprarButton{
   background-color: white;
@@ -78,75 +67,10 @@
   }
 }
 
-/* Estilos para pantallas móviles */
-@media (max-width: 991px) {
-  .sliderLayoutContainer--slider {
-    padding: 15px;
-    margin-bottom: 8px;
-  }
-
-  .sliderLayoutContainer--imageScreen_slider2 {
-    padding: 15px;
-    margin-bottom: 8px;
-  }
-
-  .sliderTrack--second-slider2--text {
-    width: 900px; /* Ajusta según el tamaño de la pantalla */
-  }
-
-  .slide--second-slider2--text {
-    height: 320px !important; /* Ajusta la altura si es necesario */
-    width: 180px !important;  /* Ajusta el ancho si es necesario */
-  }
-
-  .slideChildrenContainer--second-slider2--text {
-    height: 320px;
-    width: 180px;
-  }
-
-  .element--slider2Container {
-    height: 320px;
-    width: 180px;
-  }
-}
-
-/* Estilos para pantallas móviles pequeñas */
-@media (max-width: 767px) {
-  .sliderLayoutContainer--slider {
-    padding: 10px;
-    margin-bottom: 6px;
-  }
-
-  .sliderLayoutContainer--imageScreen_slider2 {
-    padding: 10px;
-    margin-bottom: 6px;
-  }
-
-  .sliderTrack--second-slider2--text {
-    width: 700px; /* Ajusta según el tamaño de la pantalla */
-  }
-
-  .slide--second-slider2--text {
-    height: 280px !important;
-    width: 150px !important;
-  }
-
-  .slideChildrenContainer--second-slider2--text {
-    height: 280px;
-    width: 150px;
-  }
-
-  .element--slider2Container {
-    height: 280px;
-    width: 150px;
-  }
-}
-
 /* Pagination Dot*/
 .paginationDot--isActive::before {
   content: "";
   position: absolute;
-  right: -8px;
   width: 16px;
   height: 16px;
   background-color: #1D2734;
@@ -171,17 +95,9 @@
   justify-content: center;
   margin: 0 2px;
 }
-.sliderTrackContainer {
-  margin-bottom: 25px;
-  margin-left: 10px; 
-  border-radius: 8px;
-}
-.paginationDotsContainer {
-  
-  padding-bottom: -20px;
-
-}
-
-.caretIcon{
-  color:transparent
+.paginationDotsContainer--slider, .paginationDotsContainer--second-slider2--text{
+  width: 231px;
+  height: 51px;
+  top: 380px;
+  left: 524px;
 }
