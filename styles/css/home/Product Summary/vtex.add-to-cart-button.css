@@ -1,25 +1,8 @@
-
-
-  .buttonText--comprarButton {
-    color: rgba(29, 39, 52, 1);
-    text-transform: capitalize;
-    font-size: 14px;
-    align-content: center;
-    font: Lexend Regular;
-}
-/*.buttonDataContainer-comprarButton{
-    width: 212px;
-    height: 48px;
-    gap: 10px;
-    padding: 10px;
-    border: 1px;
-    border-radius: 8px;
-    background-color: rgb(160, 45, 45);
-}*/
-
-/*.buttonDataContainer--comprarButton{
-    width: 212px;
-    height: 48px;
-    background-color: rgb(238, 233, 242);
-}*/
-
+.buttonText--buy__button--link {
+    font-family: Lexend, Courier, monospace;
+    font-weight: 400;
+    font-size  : 14px;
+    text-align : center;
+    color      : #1d2734;
+    height     : 18px;
+  }
